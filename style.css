@@ -1,10 +1,7 @@
 
 .head{
     background-color: white;
-}
-.contaner{
-    max-width: 1110px;
-    text-align: center;
+    margin: 0;
 }
 .main-1 a{
     text-decoration: none;
@@ -14,8 +11,11 @@
     border-radius: 20px;
 
 }
+.main-1 p{
+    margin-bottom: 10px;
+}
 .wi{
-    width: 50%;
+    width: 40%;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -31,4 +31,64 @@ body{
     padding: 10px;
     margin-bottom: 0;
     margin-left: 20px;
+}
+.popular{
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+}
+.popular-img img{
+    width: 100%;
+}
+h3,h4,p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+.icon{
+    color: gold;
+}
+.out-icon{
+    color: #AAA;
+}
+.popular-div{
+    box-shadow: 10px 10px 20px gray;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    
+}
+
+.populer-all{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr); 
+}
+.see{
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 0;
+    padding: 10px;
+    color: #E02C6D;
+   
+}
+.see a{
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+}
+.footer{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.footer p{
+    font-size: 12px;
+}
+.icon2{
+    margin: 5px;
 }
